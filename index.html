@@ -8,6 +8,14 @@
 	<link rel="icon" type="image/x-icon" href="favicon.svg">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<script src="js/bootstrap.min.js"></script>
+	<style>
+		.card-img-top {
+			width: 100%;
+			height: 200px;
+			object-fit: cover;
+			display: block;
+		}
+	</style>
 </head>
 <body>
 	<div class="container">
@@ -29,14 +37,12 @@
 							<a class="nav-link" href="https://github.com/mschahar" target="_blank" rel="noreferrer">GitHub</a>
 						</li>
 						<li class="nav-item d-sm-none">
-							<!-- Replace with your actual LinkedIn handle -->
 							<a class="nav-link" href="https://linkedin.com/in/mschahar" target="_blank" rel="noreferrer">LinkedIn</a>
 						</li>
 					</ul>
 				</div>
 				<ul class="nav navbar-nav navbar-right d-none d-sm-flex">
 					<li>
-						<!-- Replace with your actual LinkedIn handle -->
 						<a href="https://linkedin.com/in/mschahar" class="nav-link" target="_blank" rel="noreferrer" aria-label="LinkedIn">
 							<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
 								<path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
@@ -59,7 +65,6 @@
 			<h1 class="display-5 fw-bold">Hello world!</h1>
 			<p class="fs-4">My name is <strong>Mahendra Singh Choudhary</strong>. I'm a Software Developer specializing in mobile application development. I build private, offline-first utilities and practical Android apps. This website showcases some of my personal projects.</p>
 			
-			<!-- Relevant Tech Stack Badges -->
 			<p class="fs-5">
 				<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Flutter</span>
 				<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Dart</span>
@@ -143,7 +148,11 @@
 			<!-- More Work / Open Source -->
 			<div class="col-md-6 mb-3 mb-sm-4">
 				<div class="card border overflow-hidden bg-body-tertiary rounded-4 h-100">
-					<img src="img/duesync.svg" class="card-img-top" alt="Open source preview">
+					<div class="d-flex align-items-center justify-content-center bg-dark text-light" style="height: 200px;">
+						<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-code-slash opacity-75" viewBox="0 0 16 16">
+							<path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+						</svg>
+					</div>
 					<div class="p-3 p-sm-4 d-flex flex-column justify-content-between h-100">
 						<div>
 							<h2>Open Source & Tools</h2>
