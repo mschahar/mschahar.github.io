@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <!-- Background Gradient matching app_icon.jpg -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fba6ed" />
+      <stop offset="100%" stop-color="#ffeba4" />
+    </linearGradient>
+    
+    <style>
+      .title { font-family: 'Arial', sans-serif; font-size: 68px; font-weight: 900; fill: #ff4d4d; }
+      .subtitle { font-family: 'Arial', sans-serif; font-size: 26px; font-weight: 700; fill: #2c3e50; }
+      .feature { font-family: 'Arial', sans-serif; font-size: 18px; font-weight: 600; fill: #4a5568; }
+      .icon-blue { fill: #3ab0ff; }
+      .icon-blue-dark { fill: #1d90ff; }
+      .icon-blue-light { fill: #7bd3ff; }
+    </style>
+  </defs>
+
+  <!-- Base Background -->
+  <rect width="800" height="400" fill="url(#bg-gradient)" />
+
+  <!-- Decorative Background Circles for depth -->
+  <circle cx="700" cy="50" r="200" fill="#ffffff" opacity="0.25" />
+  <circle cx="100" cy="350" r="120" fill="#ffffff" opacity="0.2" />
+
+  <!-- LEFT SIDE: Text Content -->
+  <text x="60" y="150" class="title">Inventa</text>
+  <text x="62" y="200" class="subtitle">Smart Inventory &amp; Stock Manager</text>
+
+  <!-- Feature Bullets -->
+  <g transform="translate(62, 240)">
+    <rect x="0" y="-14" width="20" height="20" rx="4" fill="#3ab0ff" opacity="0.2"/>
+    <path d="M 4 -4 L 8 1 L 15 -7" fill="none" stroke="#3ab0ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="30" y="2" class="feature">100% Offline &amp; Secure</text>
+  </g>
+  
+  <g transform="translate(62, 280)">
+    <rect x="0" y="-14" width="20" height="20" rx="4" fill="#3ab0ff" opacity="0.2"/>
+    <path d="M 4 -4 L 8 1 L 15 -7" fill="none" stroke="#3ab0ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="30" y="2" class="feature">Real-time P/L &amp; PDF Reports</text>
+  </g>
+
+  <g transform="translate(62, 320)">
+    <rect x="0" y="-14" width="20" height="20" rx="4" fill="#3ab0ff" opacity="0.2"/>
+    <path d="M 4 -4 L 8 1 L 15 -7" fill="none" stroke="#3ab0ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="30" y="2" class="feature">Built-in Barcode Scanner</text>
+  </g>
+
+  <!-- RIGHT SIDE: Stylized Icon Representation -->
+  <g transform="translate(520, 100) scale(1.3)">
+    <!-- Circular Arrow -->
+    <path d="M 50 140 A 75 75 0 1 0 140 30" fill="none" stroke="#3ab0ff" stroke-width="6" stroke-linecap="round"/>
+    <polygon points="140,20 155,35 125,35" fill="#3ab0ff" transform="rotate(45 140 30)"/>
+    <polygon points="50,150 35,135 65,135" fill="#3ab0ff" transform="rotate(225 50 140)"/>
+
+    <!-- Bar Chart -->
+    <rect x="110" y="30" width="10" height="25" class="icon-blue" />
+    <rect x="125" y="15" width="10" height="40" class="icon-blue" />
+    <rect x="140" y="-5" width="10" height="60" class="icon-blue" />
+
+    <!-- 3D Box Base -->
+    <polygon points="45,75 85,55 125,75 85,95" class="icon-blue-light" />
+    <polygon points="45,75 85,95 85,135 45,115" class="icon-blue" />
+    <polygon points="85,95 125,75 125,115 85,135" class="icon-blue-dark" />
+    
+    <!-- 3D Box Flaps -->
+    <polygon points="35,60 85,80 75,100 25,80" class="icon-blue" />
+    <polygon points="135,60 85,80 95,100 145,80" class="icon-blue-dark" />
+
+    <!-- Rupee Coin -->
+    <circle cx="35" cy="120" r="22" class="icon-blue" />
+    <text x="35" y="128" font-family="'Arial', sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">₹</text>
+  </g>
+</svg>
